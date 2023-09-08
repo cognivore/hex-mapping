@@ -3,23 +3,35 @@
 0102 green forest-mountain cliff2 cliff3
 0103 green forest village "goblin castle"
 0104 green forest "faun's grove"
-0105 grey town "Brandonsford" 
+0105 grey town "Brandonsford"
 0201 light-grey mountain chaos "den"
 0202 green forest firs
 0203 green firs
-0204 grey bush 
+0204 grey bush
+0205 green forest
 0301 light-grey fir-mountain
 0302 green fir
 0303 green firs
 0304 grey fir "bridge"
+0305 green forest
 0401 light-grey fir-mountain
 0402 grey tree
 0403 grey bush "destroyed caravan"
+0404 green forest
+0405 green forest Hut "witch of the woods"
 0501 light-grey fir-mountain fir "mine"
 0502 grey tree
+0503 green forest
+0504 green Hut "giant's house"
+0505 green forest
 0601 grey fir-hill
-0602 green tree
+0602 green hill "barrow mound"
+0603 green forest
+0604 green forest
+0605 green forest
 
 0105-0204-0304-0402-0403-0502-0601 river
+
+# End of Black wyrm of Brandonsford
 
 include http://127.0.0.1:8633/gnomeyland.txt
