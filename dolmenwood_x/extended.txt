@@ -1,37 +1,93 @@
 # Black wyrm of Brandonsford
-0101 light-grey fir-mountain cliff3
-0102 green forest-mountain cliff2 cliff3
-0103 green forest village "goblin castle"
-0104 green forest "faun's grove"
-0105 grey town "Brandonsford"
-0201 light-grey mountain chaos "den"
-0202 green forest firs
-0203 green firs
-0204 grey bush
-0205 green forest
-0301 light-grey fir-mountain
-0302 green fir
-0303 green firs
-0304 grey fir "bridge"
-0305 green forest
-0401 light-grey fir-mountain
-0402 grey tree
-0403 grey bush "destroyed caravan"
-0404 green forest
-0405 green forest Hut "witch of the woods"
-0501 light-grey fir-mountain fir "mine"
-0502 grey tree
-0503 green forest
-0504 green Hut "giant's house"
-0505 green forest
-0601 grey fir-hill
-0602 green hill "barrow mound"
-0603 green forest
-0604 green forest
-0605 green forest
-
-0105-0204-0304-0402-0403-0502-0601 river
+2401 light-grey fir-mountain cliff3
+2402 green forest-mountain cliff2 cliff3
+2403 green forest village "goblin castle"
+2404 green forest "faun's grove"
+2405 grey town "Brandonsford"
+2501 light-grey mountain chaos "den"
+2502 green forest firs
+2503 green firs
+2504 grey bush
+2505 green forest
+2601 light-grey fir-mountain
+2602 green fir
+2603 green firs
+2604 grey fir "bridge"
+2605 green forest
+2701 light-grey fir-mountain
+2702 grey tree
+2703 grey bush "destroyed caravan"
+2704 green forest
+2705 green forest Hut "witch of the woods"
+2801 light-grey fir-mountain fir "mine"
+2802 grey tree
+2803 green forest
+2804 green Hut "giant's house"
+2805 green forest
+2901 grey fir-hill "r. Blackbrew"
+2902 green hill "barrow mound"
+2903 green forest
+2904 green forest
+2905 green forest
 
 # End of Black wyrm of Brandonsford
+
+# Peril in Olden Wood
+
+2406 dark-soil swamp
+2407 grey hill
+
+2301 grey hill
+2302 grey mountain 
+2303 green tree-mountain
+2304 green forest
+2305 green fir "the old bridge"
+
+2201 green grass
+2202 green grass
+2203 green tree
+2204 green forest
+2205 green forest chaos "Borlig"
+2206 green grass
+2207 soil town "Bridgeham"
+2208 soil hill "Karmell falls"
+
+2103 green grass "r. Copperwine"
+2104 green grass
+2105 grey forest law "the stones"
+2106 green grass "the ruined bridge"
+2107 grey grass
+2108 light-green grass
+
+1904 grey grass
+1905 grey hill "the old mound"
+1906 grey hill
+1907 grey grass
+1908 grey grass "Imperial road"
+1909 grey grass
+
+2002 green grass
+2003 green grass 
+2004 grey grass
+2005 grey hill 
+2006 grey hill "western way"
+2007 grey mountain
+2008 light-green grass
+
+2306 green forest
+2307 green hill Hut "the wise woman"
+2308 light-green lake "l. Saison"
+2309 light-green hill "fort Hope"
+
+# End of Peril in Olden Wood
+
+
+2205-2305-2405-2504-2604-2702-2703-2802-2901 river
+2002-2003-2104-2205-2106-2206-2207-2208-2309 river
+2206-2207-2108-2008-1909 river
+1908-2007-2107-2207-2307-2306-2305-2304-2303-2202-2201 trail
+1906-2006-2106 trail
+2006-2107 trail
+2306-2305-2405-2404-2504-2604-2603-2702-2703-2802-2901 trail
 
 include http://127.0.0.1:8633/gnomeyland.txt
