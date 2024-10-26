@@ -204,3 +204,5 @@ include http://127.0.0.1:8633/gnomeyland.txt
 0707 sand outpost "Dusty's Outpost"
 0303 dark-soil Corley-Motors-HQ "Corley Motors HQ"
 0403 dark-grey city "Edge City"
+
+include http://127.0.0.1:8633/gnomeyland.txt
