@@ -95,8 +95,9 @@ The code needs to know where Text Mapper and the Face Generator can be found.
 
 =cut
 
-my $hex_describe_url = app->config('hex_describe_url') || 'https://campaignwiki.org/hex-describe';
-my $text_mapper_url = app->config('text_mapper_url') || 'https://campaignwiki.org/text-mapper';
+my $hex_describe_url = app->config('hex_describe_url') || 'http://127.0.0.1:8631';
+my $text_mapper_url = app->config('text_mapper_url') || 'http://127.0.0.1:8632';
+# TODO: package face-generator
 my $face_generator_url = app->config('face_generator_url') || 'https://campaignwiki.org/face';
 
 =head2 Entry Points

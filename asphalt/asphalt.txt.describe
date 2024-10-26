@@ -1,0 +1,136 @@
+;asphalt
+1,The asphalt road ahead is smooth, perfect for pushing your bike to its limits.
+
+;desert
+1,The relentless sun beats down; mirages dance on the horizon.
+
+;forest
+1,The dense forest surrounds you, shadows hiding both beauty and danger.
+
+;mountain
+1,Rocky peaks tower above; the air is thin, and the path is treacherous.
+
+;river
+1,A wide river blocks your path; the water is swift and deep.
+
+;trail
+1,A dusty trail winds through the landscape, evidence of those who traveled before.
+
+;ruins
+1,Crumbled structures stand as silent witnesses to a bygone era.
+
+;village
+1,Timbervale's wooden cabins blend with the forest, smoke rises from chimneys.
+
+;outpost
+1,Dusty's Outpost creaks in the wind; the old man watches you with a keen eye.
+
+;hill
+1,From the summit of Lone Pine Hill, you see the vast expanse of the desert.
+
+;tree
+1,The Lone Pine stands tall; carved into its bark are messages from travelers.
+
+;cave
+1,The entrance to the cave is hidden behind boulders; it's the perfect hideout.
+
+;Corley-Motors-HQ
+1,Corley Motors Headquarters buzzes with activity; prototypes roar to life in the testing grounds.
+
+;city
+1,Edge City's neon lights pierce the night; the streets are alive with energy.
+
+;GP1-Start
+1,Mechanics make last-minute adjustments; the GP Stage 1 is about to commence.
+
+;GP1-Finish
+1,Cheers erupt as the first racers cross the GP Stage 1 finish line.
+
+;GP2-Start
+1,Competitors eye each other warily; alliances and rivalries form.
+
+;GP2-Finish
+1,Exhaustion shows on the faces of the racers; only the determined remain.
+
+;GP3-Start
+1,Whispers of sabotage circulate; trust is a rare commodity now.
+
+;GP3-Finish
+1,The finish line is a relief; but the hardest challenges lie ahead.
+
+;GP4-Start
+1,The final stage begins; every decision here could be the difference between victory and defeat.
+
+;GP4-Finish
+1,The crowd roars as the champion crosses the finish line; glory awaits.
+
+;Cavefish Hideout
+1,You discover the Cavefish Hideout; symbols on the walls tell a story of vengeance.
+
+;Old Mine
+1,The Old Mine's entrance is boarded up; whispers suggest hidden tunnels beneath.
+
+;Lone Pine Hill
+1,An old man sits beneath the pine; he beckons you over with a knowing smile.
+
+;Specific Encounters
+
+;Lone Pine Hill Event
+1,The old man introduces himself as **Grim**, former leader of the Cavefish. He warns, "A shadow from the past walks among you. Blood ties run deep, and betrayal hides behind friendly eyes."
+
+;Dusty's Outpost Event
+1,Dusty leans in close, his voice low: "Heard whispers that Jared's been poking around places he shouldn't. Watch your back, friend."
+
+;Cavefish Hideout Discovery
+1,In the hideout, you find plans detailing an attack on Corley Motors. Notes mention Jared's name alongside the Cavefish symbol.
+
+;Old Mine Exploration
+1,Deep within the mine, you find a discarded Cavefish helmet with a note: "The new leader will finish what was started."
+
+;Edge City Encounter
+1,A contact slips you a dossier: "Jared Stiles isn't who he claims to be. This goes deeper than you know."
+
+;Gameplay Elements
+
+;Loot Item
+1,A high-tech scanner capable of detecting hidden Cavefish traps.
+1,A coded journal belonging to Jared, revealing his true identity.
+
+;Challenge
+1,A bridge rigged to collapse; disarm the explosives before it's too late.
+1,A Cavefish ambush; outmaneuver them through a dangerous canyon.
+
+;Weather Event
+1,A sandstorm reduces visibility; navigation becomes perilous.
+1,Night falls suddenly; the darkness favors the Cavefish.
+
+;Specific Advice and Hints
+
+;Grim's Warning
+1,"Beware the one who smiles with his hand on the dagger. The son seeks to finish his father's work."
+
+;Dusty's Information
+1,"Kaiser Motors ain't your enemy. Look closer to home. Jared's got secrets that'll burn us all."
+
+;Cavefish Documents
+1,The plans indicate an insider at Corley Motors aiding the Cavefish—initials J.S.
+
+;Edge City Dossier
+1,Contained within is a birth certificate: Jared Stiles, son of Adrian Ripburger.
+
+;Cavefish Leader's Note
+1,"Jared has promised us the downfall of Corley Motors. In return, we give him the chaos he desires."
+
+;Evocative Descriptions
+
+;Desert Night
+1,The stars emerge as the desert cools; silence is broken by distant engine roars.
+
+;Mountain Path
+1,Rocks crumble beneath your wheels; a misstep here could be fatal.
+
+;River Crossing
+1,The river swells from recent rains; crossing it will be a true test of skill.
+
+;Final Showdown Setting
+1,The GP Stage 4 Finish looms ahead, but shadows move among the cheering crowds.

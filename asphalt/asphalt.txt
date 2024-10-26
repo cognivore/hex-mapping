@@ -1,0 +1,206 @@
+# Hex Map for "Asphalt and Trouble" Campaign
+# Coordinates are in the format of [column][row], e.g., 0101 is column 01, row 01.
+
+# Terrain Key:
+# - desert: sand attributes fill="#e3bea3"
+# - forest: green attributes fill="#77904c"
+# - mountain: grey attributes fill="#afbc9e"
+# - river: water attributes fill="#6ebae7"
+# - trail: trail path attributes stroke="#e3bea3"
+# - asphalt: dark-soil attributes fill="#c97457"
+# - city: dark-grey attributes fill="#859d70"
+
+# Map Layout:
+
+include http://127.0.0.1:8633/gnomeyland.txt
+
+# Column 01
+0101 sand
+0102 sand
+0103 sand
+0104 sand
+0105 sand
+0106 sand
+0107 sand
+0108 sand
+0109 sand
+0110 sand
+0111 grey
+
+# Column 02
+0201 sand
+0202 sand
+0203 sand
+0204 sand
+0205 sand
+0206 sand
+0207 sand
+0208 sand
+0209 sand
+0210 grey
+0211 grey
+
+# Column 03
+0301 sand
+0302 sand trail river
+0303 dark-soil Corley-Motors-HQ "Corley Motors HQ"
+0304 sand trail
+0305 sand
+0306 sand
+0307 sand
+0308 sand
+0309 sand
+0310 grey
+0311 grey
+
+# Column 04
+0401 sand
+0402 sand trail river
+0403 dark-grey city "Edge City"
+0404 sand trail river
+0405 sand trail
+0406 sand
+0407 sand
+0408 sand
+0409 sand
+0410 grey
+0411 grey
+
+# Column 05
+0501 sand
+0502 sand trail river
+0503 sand trail
+0504 sand trail
+0505 sand GP1-Start "GP Stage 1 Start" river
+0506 sand trail
+0507 sand trail
+0508 sand trail
+0509 sand
+0510 grey
+0511 grey
+
+# Column 06
+0601 sand
+0602 sand trail river
+0603 green hill tree "Lone Pine Hill"
+0604 sand trail
+0605 sand trail
+0606 sand trail
+0607 sand trail
+0608 sand trail
+0609 sand
+0610 grey
+0611 grey
+
+# Column 07
+0701 sand
+0702 sand trail river
+0703 sand trail
+0704 sand trail
+0705 sand ruins "Old Mine"
+0706 sand trail
+0707 sand outpost "Dusty's Outpost"
+0708 sand trail
+0709 sand
+0710 grey
+0711 grey
+
+# Column 08
+0801 sand
+0802 sand trail river
+0803 sand trail
+0804 sand trail
+0805 sand GP1-Finish GP2-Start "GP Stage 2 Start"
+0806 sand trail
+0807 sand trail
+0808 sand crossroads "The Crossroads"
+0809 sand
+0810 grey
+0811 grey
+
+# Column 09
+0901 sand
+0902 sand trail river
+0903 sand trail
+0904 sand trail
+0905 sand trail
+0906 sand trail
+0907 sand trail
+0908 sand trail
+0909 sand cave "Cavefish Hideout" river
+0910 grey
+0911 grey
+
+# Column 10
+1001 sand
+1002 sand trail river
+1003 sand trail
+1004 sand trail
+1005 sand GP2-Finish GP3-Start "GP Stage 3 Start"
+1006 sand trail
+1007 sand trail
+1008 sand trail
+1009 sand river
+1010 grey
+1011 grey
+
+# Column 11
+1101 sand
+1102 sand trail river
+1103 sand trail
+1104 sand trail
+1105 sand GP3-Finish GP4-Start "GP Stage 4 Start"
+1106 sand trail
+1107 sand trail
+1108 sand trail
+1109 sand
+1110 grey
+1111 grey
+
+# Column 12
+1201 sand
+1202 sand trail river
+1203 sand trail
+1204 sand trail
+1205 sand
+1206 sand
+1207 sand
+1208 sand
+1209 sand
+1210 grey
+1211 grey
+
+# Column 13
+1301 sand
+1302 sand trail
+1303 sand trail
+1304 sand trail
+1305 sand GP4-Finish "GP Stage 4 Finish"
+1306 sand
+1307 sand
+1308 sand
+1309 sand
+1310 grey
+1311 grey
+1312 grey
+1313 grey
+
+# Rivers (Adjusted Coordinates)
+0505-0605-0705-0805-0905-1005-1105-1205-1305 river
+0302-0303-0404-0505-0606-0707-0808-0909 river
+0606-0707-0808-0909-1009 river
+
+# Trails
+0302-0402-0502-0602-0702-0802-0902-1002-1102-1202 trail
+0504-0604-0704-0804-0904 trail
+0804-0805 trail
+0808-0809-0810-0811 trail
+
+# Notable Locations
+0603 green hill tree "Lone Pine Hill"
+0705 sand ruins "Old Mine"
+0808 sand crossroads "The Crossroads"
+0909 sand cave "Cavefish Hideout"
+0707 sand outpost "Dusty's Outpost"
+0303 dark-soil Corley-Motors-HQ "Corley Motors HQ"
+0403 dark-grey city "Edge City"

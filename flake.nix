@@ -13,19 +13,21 @@
                     buildInputs = [
                         pkgs.caddy
                         pkgs.perl
-                        pkgs.perlPackages.ModernPerl
-                        pkgs.perlPackages.Mojolicious
-                        pkgs.perlPackages.URI
-                        pkgs.perlPackages.LWP
-                        pkgs.perlPackages.RoleTiny
-                        pkgs.perlPackages.ScalarListUtils
-                        pkgs.perlPackages.Memoize
-                        # pkgs.perlPackages.SVG ## Not packaged
-                        pkgs.perlPackages.XMLLibXML
-                        pkgs.perlPackages.MathGeometryVoronoi
-                        # pkgs.perlPackages.MathFractalNoisemaker ## Not packaged
-                        pkgs.perlPackages.ListMoreUtils
-                        pkgs.perlPackages.LWPProtocolHttps
+                        pkgs.perl538Packages.ModernPerl
+                        pkgs.perl538Packages.Mojolicious
+                        pkgs.perl538Packages.URI
+                        pkgs.perl538Packages.LWP
+                        pkgs.perl538Packages.RoleTiny
+                        pkgs.perl538Packages.ScalarListUtils
+                        pkgs.perl538Packages.Memoize
+                        # pkgs.perl538Packages.SVG ## Not packaged
+                        pkgs.perl538Packages.XMLLibXML
+                        pkgs.perl538Packages.MathGeometryVoronoi
+                        # pkgs.perl538Packages.MathFractalNoisemaker ## Not packaged
+                        pkgs.perl538Packages.ListMoreUtils
+                        pkgs.perl538Packages.LWPProtocolHttps
+                        pkgs.perl538Packages.ArrayUtils
+                        pkgs.perl538Packages.TextAutoformat
                     ];
                 };
         };
