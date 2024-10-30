@@ -1,16 +1,4 @@
 # Hex Map for "Asphalt and Trouble" Campaign
-# Coordinates are in the format of [column][row], e.g., 0101 is column 01, row 01.
-
-# Terrain Key:
-# - desert: sand attributes fill="#e3bea3"
-# - forest: green attributes fill="#77904c"
-# - mountain: grey attributes fill="#afbc9e"
-# - river: water attributes fill="#6ebae7"
-# - trail: trail path attributes stroke="#e3bea3"
-# - asphalt: dark-soil attributes fill="#c97457"
-# - city: dark-grey attributes fill="#859d70"
-
-# Map Layout:
 
 include http://127.0.0.1:8633/gnomeyland.txt
 
@@ -28,7 +16,7 @@ include http://127.0.0.1:8633/gnomeyland.txt
 0111 grey
 
 # Column 02
-0201 sand
+0201 sand mountain
 0202 sand
 0203 sand
 0204 sand
@@ -43,8 +31,8 @@ include http://127.0.0.1:8633/gnomeyland.txt
 # Column 03
 0301 sand
 0302 dust
-0303 dark-soil Corley-Motors-HQ "Corley Motors HQ"
-0304 sand
+0303 Hut dark-soil Corley-Motors-HQ GP1-Start "Corley Motors HQ: GP 1 Start"
+0304 Hut sand
 0305 sand
 0306 sand
 0307 sand
@@ -55,7 +43,7 @@ include http://127.0.0.1:8633/gnomeyland.txt
 
 # Column 04
 0401 sand
-0402 dust trail river
+0402 dust Hut trail river
 0403 dark-grey city "Edge City"
 0404 sand trail river
 0405 sand trail
@@ -69,9 +57,9 @@ include http://127.0.0.1:8633/gnomeyland.txt
 # Column 05
 0501 sand
 0502 dust 
-0503 sand
-0504 dust
-0505 sand GP1-Start "GP Stage 1 Start" river
+0503 Hut sand
+0504 Hut dust
+0505 sand
 0506 sand
 0507 sand
 0508 sand
@@ -109,8 +97,8 @@ include http://127.0.0.1:8633/gnomeyland.txt
 0801 sand
 0802 dust
 0803 sand
-0804 dust
-0805 dust GP1-Finish GP2-Start "GP Stage 2 Start"
+0804 dust GP1-Finish "GP Stage 1 End"
+0805 dust bridge0 GP2-Start "Mine Bridge: GP 2 Start"
 0806 sand
 0807 sand
 0808 dust crossroads "The Crossroads"
@@ -186,23 +174,12 @@ include http://127.0.0.1:8633/gnomeyland.txt
 1313 grey
 
 # Rivers
-0505-0605-0705-0805-0905-1005-1105-1205-1305 river
-0302-0303-0404-0505-0606-0707-0808-0909 river
-0606-0707-0808-0909-1009 river
+0505-0605-0705-0805-0905-1005-1105-1205-1305-1404 river
+0201-0302-0303-0404-0505-0606-0707-0808-0909 river
+0606-0707-0808-0909-1009-1010-1011-1012 river
 
 # Trails
-0302-0402-0502-0602-0702-0802-0902-1002-1102-1202 trail
-0504-0604-0704-0804-0904 trail
-0804-0805 trail
-0808-0809-0810-0811 trail
-
-# Notable Locations
-0603 green hill tree "Lone Pine Hill"
-0705 sand ruins "Old Mine"
-0808 sand crossroads "The Crossroads"
-0909 sand cave "Cavefish Hideout"
-0707 sand outpost "Dusty's Outpost"
-0303 dark-soil Corley-Motors-HQ "Corley Motors HQ"
-0403 dark-grey city "Edge City"
-
-include http://127.0.0.1:8633/gnomeyland.txt
+0201-0302-0402-0502-0602-0702-0802-0902-1002-1102-1202 trail
+0403-0504-0604-0704-0804-0904 trail
+0403-0504-0604-0704-0804-0805-0806 trail
+0808-0809-0810-0811-0812 trail
