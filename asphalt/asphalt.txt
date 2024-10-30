@@ -42,9 +42,9 @@ include http://127.0.0.1:8633/gnomeyland.txt
 
 # Column 03
 0301 sand
-0302 sand trail river
+0302 dust
 0303 dark-soil Corley-Motors-HQ "Corley Motors HQ"
-0304 sand trail
+0304 sand
 0305 sand
 0306 sand
 0307 sand
@@ -55,7 +55,7 @@ include http://127.0.0.1:8633/gnomeyland.txt
 
 # Column 04
 0401 sand
-0402 sand trail river
+0402 dust trail river
 0403 dark-grey city "Edge City"
 0404 sand trail river
 0405 sand trail
@@ -68,72 +68,72 @@ include http://127.0.0.1:8633/gnomeyland.txt
 
 # Column 05
 0501 sand
-0502 sand trail river
-0503 sand trail
-0504 sand trail
+0502 dust 
+0503 sand
+0504 dust
 0505 sand GP1-Start "GP Stage 1 Start" river
-0506 sand trail
-0507 sand trail
-0508 sand trail
+0506 sand
+0507 sand
+0508 sand
 0509 sand
 0510 grey
 0511 grey
 
 # Column 06
 0601 sand
-0602 sand trail river
+0602 dust 
 0603 green hill tree "Lone Pine Hill"
-0604 sand trail
-0605 sand trail
-0606 sand trail
-0607 sand trail
-0608 sand trail
+0604 dust
+0605 sand
+0606 sand
+0607 sand
+0608 sand
 0609 sand
 0610 grey
 0611 grey
 
 # Column 07
 0701 sand
-0702 sand trail river
-0703 sand trail
-0704 sand trail
-0705 sand ruins "Old Mine"
-0706 sand trail
-0707 sand outpost "Dusty's Outpost"
-0708 sand trail
+0702 dust
+0703 dust 
+0704 dust 
+0705 sand chaos ruins "Old Mine"
+0706 sand 
+0707 sand law outpost "Dusty's Outpost"
+0708 sand
 0709 sand
 0710 grey
 0711 grey
 
 # Column 08
 0801 sand
-0802 sand trail river
-0803 sand trail
-0804 sand trail
-0805 sand GP1-Finish GP2-Start "GP Stage 2 Start"
-0806 sand trail
-0807 sand trail
-0808 sand crossroads "The Crossroads"
+0802 dust
+0803 sand
+0804 dust
+0805 dust GP1-Finish GP2-Start "GP Stage 2 Start"
+0806 sand
+0807 sand
+0808 dust crossroads "The Crossroads"
 0809 sand
-0810 grey
-0811 grey
+0810 dust
+0811 dust
 
 # Column 09
 0901 sand
-0902 sand trail river
-0903 sand trail
-0904 sand trail
-0905 sand trail
-0906 sand trail
-0907 sand trail
-0908 sand trail
+0902 dust
+0903 sand
+0904 dust
+0905 sand
+0906 sand
+0907 sand
+0908 sand
 0909 sand cave "Cavefish Hideout" river
 0910 grey
 0911 grey
 
 # Column 10
 1001 sand
-1002 sand trail river
+1002 dust
 1003 sand trail
 1004 sand trail
 1005 sand GP2-Finish GP3-Start "GP Stage 3 Start"
@@ -146,7 +146,7 @@ include http://127.0.0.1:8633/gnomeyland.txt
 
 # Column 11
 1101 sand
-1102 sand trail river
+1102 dust
 1103 sand trail
 1104 sand trail
 1105 sand GP3-Finish GP4-Start "GP Stage 4 Start"
@@ -159,7 +159,7 @@ include http://127.0.0.1:8633/gnomeyland.txt
 
 # Column 12
 1201 sand
-1202 sand trail river
+1202 dust
 1203 sand trail
 1204 sand trail
 1205 sand
@@ -185,7 +185,7 @@ include http://127.0.0.1:8633/gnomeyland.txt
 1312 grey
 1313 grey
 
-# Rivers (Adjusted Coordinates)
+# Rivers
 0505-0605-0705-0805-0905-1005-1105-1205-1305 river
 0302-0303-0404-0505-0606-0707-0808-0909 river
 0606-0707-0808-0909-1009 river
